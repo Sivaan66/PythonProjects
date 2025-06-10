@@ -26,3 +26,9 @@ A problem about checking if any number of given PIN is divisible by 4. If divisi
 - If the pin is divisible by 3, it will show open.  
 - If it's not divisible bt 4 teh it will show Locked and again ask for a pin.  
 🔗 [Check the Code](./PinValidation.py)
+## USD to INR Converter
+A programme to convert given USD value to INR.  
+
+- Enter the USD value
+- Using the relation between USD and INR it gives the value in INR
+- 🔗 [Check the Code](./USDtoINR.py)
