@@ -16,7 +16,7 @@ A coding problem where you calculate the final position on a grid map after a se
   
 - The starting point is at (0, 0), and the task is to follow the instructions to determine the final coordinates.  
 - Each time the movement will be for only one unit in the map.
-- If i say RRLDUR, means the coordinates will be at (2,0) = (x,y).
+- If i say RRLDUR, means the coordinates will be at (2,0) = (x,y).  
 🔗 [Check the Code](./TreasureHunt.py.py)
 
   
