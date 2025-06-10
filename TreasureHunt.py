@@ -1,11 +1,11 @@
 def coordinates():
-    t = int(input())
+    t = int(input("Enter a number-").strip())
     for _ in range(t) :
-        moves = input().strip()
+        moves = input().strip().upper()
         x=0
         y=0
         for move in moves:
-            if move == "U":
+            if move == "U" :
                 y+=1
             elif move == "D":
                 y-=1
