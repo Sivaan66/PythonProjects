@@ -15,8 +15,8 @@ Automatically sort the file to specified folder according to the file type.
 A coding problem where you calculate the final position on a grid map after a series of movement instructions (U-up, D-down, L-left, R-right).  
   
 -The starting point is at (0, 0), and the task is to follow the instructions to determine the final coordinates.  
-- Each time the movement will be for only one unit in the map.
+-Each time the movement will be for only one unit in the map.
 -If i say RRLDUR, means the coordinates will be at (2,0) = (x,y)
-🔗 [Check the Code](./AutomaticFileSorting.py)
+🔗 [Check the Code](./TreasureHunt.py.py)
 
   
