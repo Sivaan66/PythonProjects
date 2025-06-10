@@ -3,9 +3,13 @@ This repository contains all the small projects that i made through my Python le
 Here are all codes i went through during my learning :
 ## Automatic File Sorting -
 Automatically sort the file to specified folder according to the file type.  
-Took three types of files as reference - ".jpg", ".pdf", ".csv"  
-Then created three folders named - "image", "pdf", "sql"  
-Then i used shutil.move(scr,dst) to move those files to their specified folders.  
+
+-Imported OS and Shutil()  
+-Specified the path.  
+-Made three folders uisng os.makedirs()  
+-Took three types of files as reference - ".jpg", ".pdf", ".csv"  
+-Then created three folders named - "image", "pdf", "sql"  
+-Then i used shutil.move(scr,dst) to move those files to their specified folders.  
 🔗 [Check the Code](./AutomaticFileSorting.py)
 ## Pallindrome or Not- 
 ``` py
