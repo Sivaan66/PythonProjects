@@ -18,7 +18,11 @@ A coding problem where you calculate the final position on a grid map after a se
 - Each time the movement will be for only one unit in the map.
 - If i say RRLDUR, means the coordinates will be at (2,0) = (x,y).  
 🔗 [Check the Code](./TreasureHunt.py)
-## Treasure Hunt Path -
-A problem about checking if a given N-digit PIN is divisible by 4. If divisible, output "open", else "locked".  
+## Pin Validation -
+A problem about checking if any number of given PIN is divisible by 4. If divisible, output "open", else "locked".  
 
   
+Asked the user to enetr any number of pin.
+If the pin is divisible by 3, it will show open.
+If it's not divisible bt 4 teh it will show Locked and again ask for a pin.
+🔗 [Check the Code](./PinValidation.py)
