@@ -11,7 +11,8 @@ Automatically sort the file to specified folder according to the file type.
 -Then created three folders named - "image", "pdf", "sql"  
 -Then i used shutil.move(scr,dst) to move those files to their specified folders.  
 🔗 [Check the Code](./AutomaticFileSorting.py)
-## Pallindrome or Not- 
-``` py
+## Pin Validation -
+
+
 
 
