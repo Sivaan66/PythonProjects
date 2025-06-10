@@ -22,7 +22,7 @@ A coding problem where you calculate the final position on a grid map after a se
 A problem about checking if any number of given PIN is divisible by 4. If divisible, output "open", else "locked".  
 
   
-Asked the user to enetr any number of pin.
-If the pin is divisible by 3, it will show open.
-If it's not divisible bt 4 teh it will show Locked and again ask for a pin.
+Asked the user to enetr any number of pin.  
+If the pin is divisible by 3, it will show open.  
+If it's not divisible bt 4 teh it will show Locked and again ask for a pin.  
 🔗 [Check the Code](./PinValidation.py)
