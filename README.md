@@ -7,8 +7,8 @@ Codes used -
 - imported beautifulsoup() to scrape the data.
 - imported requests() to get the access to the page and interact with my VS Code.
 - Also imported panda to make table in .csv format.  
-- 🔗 [Check the Code](./AutomaticFileSorting.py)  
-- 🔗 [Check the Table](./AutomaticFileSorting.py)
+- 🔗 [Check the Code](./WebScraping.py)  
+- 🔗 [Check the Table](./companies.csv)
 - Website I worked on : [Click here](https://en.wikipedia.org/wiki/List_of_largest_companies_in_India)
 ## Automatic File Sorting -
 Automatically sort the file to specified folder according to the file type.  
