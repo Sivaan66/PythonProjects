@@ -1,6 +1,15 @@
 # PythonProjects
 This repository contains all the small projects that i made through my Python learnig process. This shows my up untill knowledge about python.
 Here are all codes i went through during my learning :
+## Web Scrapping
+Used python to scrape data from a website that contained info of some indian companies about their name, industry type, revenue, etc.  
+Codes used -  
+- imported beautifulsoup() to scrape the data.
+- imported requests() to get the access to the page and interact with my VS Code.
+- Also imported panda to make table in .csv format.  
+- 🔗 [Check the Code](./AutomaticFileSorting.py)  
+- 🔗 [Check the Table](./AutomaticFileSorting.py)
+- Website I worked on : [Click here](https://en.wikipedia.org/wiki/List_of_largest_companies_in_India)
 ## Automatic File Sorting -
 Automatically sort the file to specified folder according to the file type.  
 
