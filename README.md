@@ -1,6 +1,6 @@
 # PythonProjects
 This repository contains all the small projects that i made through my Python learnig process. This shows my up untill knowledge about python.
-Here are all coding i went through during my learning :
+Here are all coding i went through during my learning :  
 ## Web Scrapping
 Used python to scrape data from a website that contained info of some indian companies about their name, industry type, revenue, profits, assets etc.  
 Codes used -  
