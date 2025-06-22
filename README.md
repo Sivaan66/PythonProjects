@@ -4,6 +4,7 @@ Here are all coding i went through during my learning :
 ## Rock Paper Cissor
 - A rock paper cissor game where user need to choose r,p,c from a list then bot will choose randomly from the list. If bot and user choice matches then the computer will show a tie and both will get 1 point each.  
 - if user = r and bot = p then bot wins where user will get 0 pint, bot will get 1 point and so on.
+- 🔗 [Check the Code](./RockPaperCissor.py) 
 ### For Bot Choice
 ```py
 import random
