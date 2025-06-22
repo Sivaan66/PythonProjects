@@ -4,9 +4,64 @@ Here are all coding i went through during my learning :
 ## Rock Paper Cissor
 - A rock paper cissor game where user need to choose r,p,c from a list then bot will choose randomly from the list. If bot and user choice matches then the computer will show a tie and both will get 1 point each.  
 - if user = r and bot = p then bot wins where user will get 0 pint, bot will get 1 point and so on.
+### For Bot Choice
 ```py
 import random
+```
+### Function for game rules 
+```py
+def play_round(user_choice, bot_choice):
+    """Plays a single round of Rock-Paper-Scissors."""
+    if user_choice == bot_choice:
+        return "It's a tie!", 0, 0  # Tie: No score change
 
+    win_conditions = {  # Use a dictionary for cleaner win conditions
+        "p": "r",  # Paper beats Rock
+        "c": "p",  # Scissors beats Paper
+        "r": "c",  # Rock beats Scissors
+    }
+
+    if win_conditions.get(user_choice) == bot_choice:  # Check if user wins
+        return "You win!", 1, 0  # User wins: +1 user score
+    else:
+        return "Bot wins!", 0, 1  # Bot wins: +1 bot score
+```
+### Function for taking user inputs, score increment and score displaying
+```py
+def main():
+    print("Welcome to Rock-Paper-Scissors!")
+
+    user_score = 0
+    bot_score = 0
+    list = ["r", "p", "c"]
+
+    while True:
+        user_choice = input("Enter r/p/c (or q to quit): ").lower()
+
+        if user_choice == "q":
+            break
+
+        if user_choice not in list: 
+            print("Invalid choice. Please enter r, p, or c.")
+            continue
+
+        bot_choice = random.choice(list)  
+        print(f"Bot chose: {bot_choice}")
+
+        result_message, user_score_change, bot_score_change = play_round(user_choice, bot_choice)
+        print(result_message)
+
+        user_score += user_score_change
+        bot_score += bot_score_change
+
+    print(f"\nFinal Score: You {user_score} - Bot {bot_score}")
+    print("Thanks for playing!")
+```
+### Calling both the functions together
+```py
+if __name__ == "__main__":  
+    main()
+```
 ## Web Scrapping
 Used python to scrape data from a website that contained info of some indian companies about their name, industry type, revenue, profits, assets etc.  
 Codes used -  
