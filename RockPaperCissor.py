@@ -18,7 +18,6 @@ def play_round(user_choice, bot_choice):
 
 
 def main():
-    """Main function to run the Rock-Paper-Scissors game."""
     print("Welcome to Rock-Paper-Scissors!")
 
     user_score = 0
@@ -31,11 +30,11 @@ def main():
         if user_choice == "q":
             break
 
-        if user_choice not in list:  # More concise validation
+        if user_choice not in list: 
             print("Invalid choice. Please enter r, p, or c.")
             continue
 
-        bot_choice = random.choice(list)  # Use random.choice
+        bot_choice = random.choice(list)  
         print(f"Bot chose: {bot_choice}")
 
         result_message, user_score_change, bot_score_change = play_round(user_choice, bot_choice)
