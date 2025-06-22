@@ -1,6 +1,11 @@
 # PythonProjects
 This repository contains all the small projects that i made through my Python learnig process. This shows my up untill knowledge about python.
 Here are all coding i went through during my learning :  
+## Rock Paper Cissor
+- A rock paper cissor game where user need to choose r,p,c from a list then bot will choose randomly from the list. If bot and user choice matches then the computer will show a tie and both will get 1 point each.  
+- if user = r and bot = p then bot wins where user will get 0 pint, bot will get 1 point and so on.
+```py
+
 ## Web Scrapping
 Used python to scrape data from a website that contained info of some indian companies about their name, industry type, revenue, profits, assets etc.  
 Codes used -  
