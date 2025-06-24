@@ -58,7 +58,7 @@ def main():
     print(f"\nFinal Score: You {user_score} - Bot {bot_score}")
     print("Thanks for playing!")
 ```
-### Calling both the functions together
+### Calling the main functions
 ```py
 if __name__ == "__main__":  
     main()
