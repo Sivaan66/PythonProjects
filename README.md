@@ -1,4 +1,4 @@
-# PythonProjects
+# 1. PythonProjects
 This repository contains all the small projects that i made through my Python learnig process. This shows my up untill knowledge about python.
 Here are all coding i went through during my learning :  
 ## Rock Paper Cissor
@@ -63,7 +63,7 @@ def main():
 if __name__ == "__main__":  
     main()
 ```
-## Web Scrapping
+## 2. Web Scrapping
 Used python to scrape data from a website that contained info of some indian companies about their name, industry type, revenue, profits, assets etc.  
 Codes used -  
 - imported beautifulsoup() to scrape the data.
@@ -72,7 +72,7 @@ Codes used -
 - 🔗 [Check the Code](./WebScraping.py)  
 - 🔗 [Check the Table](./companies.csv)
 - Website I worked on : [Click here](https://en.wikipedia.org/wiki/List_of_largest_companies_in_India)
-## Automatic File Sorting -
+## 3. Automatic File Sorting -
 Automatically sort the file to specified folder according to the file type.  
 
 - Imported OS and Shutil()  
@@ -82,14 +82,14 @@ Automatically sort the file to specified folder according to the file type.
 - Then created three folders named - "image", "pdf", "sql"  
 - Then i used shutil.move(scr,dst) to move those files to their specified folders.  
 🔗 [Check the Code](./AutomaticFileSorting.py)
-## Treasure Hunt Path -
+## 4. Treasure Hunt Path -
 A coding problem where you calculate the final position on a grid map after a series of movement instructions (U-up, D-down, L-left, R-right).  
   
 - The starting point is at (0, 0), and the task is to follow the instructions to determine the final coordinates.  
 - Each time the movement will be for only one unit in the map.
 - If i say RRLDUR, means the coordinates will be at (2,0) = (x,y).  
 🔗 [Check the Code](./TreasureHunt.py)
-## Pin Validation -
+## 5. Pin Validation -
 A problem about checking if any number of given PIN is divisible by 4. If divisible, output "open", else "locked".  
 
   
@@ -98,7 +98,7 @@ A problem about checking if any number of given PIN is divisible by 4. If divisi
 - If the pin is divisible by 4, it will show open.  
 - If it's not, it will show Locked and again ask for a pin.  
 🔗 [Check the Code](./PinValidation.py)
-## USD to INR Converter
+## 6. USD to INR Converter
 A programme to convert given USD value to INR.  
 
 - Enter the USD value
